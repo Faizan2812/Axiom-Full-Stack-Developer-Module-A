@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #242333;
+  background: -webkit-linear-gradient(left, #a445b2, #fa4299);
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -38,7 +38,7 @@ body {
 }
 
 .seat {
-  background-color: #444451;
+  background-color: #060608;
   height: 12px;
   width: 15px;
   margin: 3px;
@@ -73,10 +73,10 @@ body {
 }
 
 .showcase {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(10, 1, 1, 0.1);
   padding: 5px 10px;
   border-radius: 5px;
-  color: #777;
+  color: rgb(10, 6, 6);
   list-style-type: none;
   display: flex;
   justify-content: space-between;
@@ -111,5 +111,5 @@ p.text {
 }
 
 p.text span {
-  color: #6feaf6;
+  color: #060a0a;
 }
